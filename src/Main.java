@@ -25,7 +25,7 @@ public class Main {
             }
         }
     });
-    
+
     private static final Thread reader = new Thread(() -> {
         while (true) {
             synchronized (randoms) {
